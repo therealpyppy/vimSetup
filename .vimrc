@@ -13,7 +13,7 @@ colorscheme lunaperche
 " Autofill neoclide/coc.nvim
 " Better syntax highlighting sheerun/vim-polyglot
 
-call plug#begin()
+call plug#begin('~/.vim/plugged')
 
 " Autofill
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
