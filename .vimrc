@@ -12,4 +12,6 @@ set wildmenu
 set wildmode=longest,list,full
 inoremap <silent><expr> <Tab> coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<Tab>"
 
+Plug 'sheerun/vim-polyglot'
+
 call plug#end()
