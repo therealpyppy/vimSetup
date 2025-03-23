@@ -1,5 +1,8 @@
 syntax on
 
+set t_Co=256
+set background=dark
+set termguicolors
 set number
 set relativenumber
 
